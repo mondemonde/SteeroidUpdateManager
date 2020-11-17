@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteeroidUpdateManager", "SteeroidUpdateManager\SteeroidUpdateManager.csproj", "{E45FFCC3-CA82-4981-B438-110F7ACE81DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquirrelDemo", "SquirrelDemo\SquirrelDemo.csproj", "{4BFE4959-BF55-4C10-AD4C-180A2C1F4362}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Releases", "Releases", "{09C99921-0101-4A42-9873-F4DCDD5E194A}"
+	ProjectSection(SolutionItems) = preProject
+		Releases\RELEASES = Releases\RELEASES
+		Releases\Setup.exe = Releases\Setup.exe
+		Releases\Setup.msi = Releases\Setup.msi
+		Releases\SteeroidAutomation-1.0.2-full.nupkg = Releases\SteeroidAutomation-1.0.2-full.nupkg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E45FFCC3-CA82-4981-B438-110F7ACE81DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45FFCC3-CA82-4981-B438-110F7ACE81DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45FFCC3-CA82-4981-B438-110F7ACE81DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45FFCC3-CA82-4981-B438-110F7ACE81DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFE4959-BF55-4C10-AD4C-180A2C1F4362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFE4959-BF55-4C10-AD4C-180A2C1F4362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFE4959-BF55-4C10-AD4C-180A2C1F4362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFE4959-BF55-4C10-AD4C-180A2C1F4362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D4045CD-706F-4256-9C80-4C955E657819}
+	EndGlobalSection
+EndGlobal
