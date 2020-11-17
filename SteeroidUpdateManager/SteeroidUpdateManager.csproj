@@ -135,6 +135,9 @@
   <ItemGroup>
     <None Include="Resources\command-web.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Install\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
